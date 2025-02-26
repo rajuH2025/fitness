@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife - Your Fitness Journey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+    
+    <nav>
+        <img src="logo.png" alt="FitLife Logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main-content">
+        <header>
+            <h1>Welcome to FitLife</h1>
+            <p>Your journey to a healthier life starts here!</p>
+        </header>
+        
+        <section class="grid">
+            <div class="box">
+                <img src="fitness1.jpg" alt="Workout Image">
+                <h2>Strength Training</h2>
+                <p>Build muscle and improve endurance with these exercises.</p>
+            </div>
+            <div class="box">
+                <img src="fitness2.jpg" alt="Yoga Image">
+                <h2>Yoga & Flexibility</h2>
+                <p>Improve your mobility and reduce stress with yoga sessions.</p>
+            </div>
+        </section>
+        
+        <section class="flex">
+            <div class="box">
+                <img src="fitness3.jpg" alt="Cardio Workout">
+                <h2>Cardio Training</h2>
+                <p>Enhance your stamina and heart health with cardio workouts.</p>
+            </div>
+            <div class="box">
+                <img src="fitness4.jpg" alt="Healthy Eating">
+                <h2>Healthy Eating</h2>
+                <p>Learn about nutritious diets that fuel your body effectively.</p>
+            </div>
+            <div class="box">
+                <img src="fitness5.jpg" alt="Motivation">
+                <h2>Stay Motivated</h2>
+                <p>Tips and tricks to keep you inspired on your fitness journey.</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 FitLife. All rights reserved.</p>
+    </footer>
+</body>
+</html>
